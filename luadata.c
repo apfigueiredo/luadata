@@ -360,16 +360,5 @@ luadata_modcmd(modcmd_t cmd, void *opaque)
 
 EXPORT_SYMBOL(luaopen_data);
 
-static int __init data_init(void)
-{
-        return 0;
-}
-
-static void __exit data_exit(void)
-{
-}
-
-module_init(data_init);
-module_exit(data_exit);
 #endif
 #endif
